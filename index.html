@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="info" class="info">
+        <p class="colorPicker"><input id="body-color" type="color" value="#ff0000"></input>Body</span>
+        <p class="colorPicker"><input id="details-color" type="color" value="#ffffff"></input>Details</span>
+        <p class="colorPicker"><input id="glass-color" type="color" value="#ffffff"></input>Glass</span>
+    </div>
+    <div class="canvas"></div>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.149.0/examples/jsm/"
+          }
+        }
+      </script>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
